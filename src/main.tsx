@@ -12,11 +12,11 @@ const router = createBrowserRouter([
   {
     
     path: '/', 
-    element: <App />,
+    element: <OrderBooks />,
   },
   {
     path: '/order-books',
-    element: <OrderBooks />
+    element: <OrderBooks />,
   }
 ], {
   basename: '/bible-books',
