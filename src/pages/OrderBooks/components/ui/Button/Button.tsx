@@ -23,7 +23,7 @@ const Button: FC<Props> = ({
       className={clsx(
         className, 
         "w-full px-4 py-2 border border-gray-300 bg-blue-800",
-        "overflow-hidden truncate transition-all duration-700",
+        "overflow-hidden truncate transition-all ease-out duration-1000",
         [
           {'opacity-0 scale-y-0 scale-x-50': isDisabled},
           {'bg-green-800 scale-105': isHint},

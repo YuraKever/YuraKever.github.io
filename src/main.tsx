@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import OrderBooks from './pages/OrderBooks/OrderBooks.tsx';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     
     path: '/', 
-    element: <OrderBooks />,
+    element: <App />,
   },
   {
     path: '/order-books',
