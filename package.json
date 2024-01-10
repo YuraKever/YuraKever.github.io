@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://yurakever.github.io/bible-books",
   "scripts": {
     "dev": "vite",
     "predeploy": "vite build",
